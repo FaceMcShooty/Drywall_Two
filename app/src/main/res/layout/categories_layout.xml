@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:squint="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.intrusoft.squint.DiagonalView
+        android:id="@+id/diagonal"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:src="@drawable/view"
+        android:elevation="4dp"
+        squint:diagonalDirection="bottom_to_top"
+        squint:angle="24"
+        squint:gravity="right" />
+
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:elevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ms_hint="Choose A Category"
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="6dp"
+            app:ms_enableFloatingLabel="true"
+            app:ms_floatingLabelText="Viewing Category"
+            app:ms_baseColor="@color/white"
+            app:ms_highlightColor="@color/white"
+            app:ms_errorColor="@color/white"
+            app:ms_thickness="1dp"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_floatingLabelColor="@color/white"/>
+
+    <sapphyx.gsd.com.drywall.views.RevealLayout
+        android:id="@+id/container"
+        android:layout_marginTop="98dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_gravity="top" />
+
+    <sapphyx.gsd.com.drywall.views.PageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:layout_gravity="top|center_horizontal" />
+
+    <HorizontalScrollView
+        android:id="@+id/sections_one"
+        android:padding="6dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.robertlevonyan.views.chip.Chip
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:mcv_backgroundColor="@color/colorPrimary"
+            app:mcv_textColor="@color/white"
+            app:mcv_hasIcon="true"
+            app:mcv_chipIcon="@mipmap/ic_launcher"
+            app:mcv_chipText="CnL Do Photos" />
+
+        <com.robertlevonyan.views.chip.Chip
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:mcv_hasIcon="true"
+            app:mcv_backgroundColor="@color/colorPrimary"
+            app:mcv_textColor="@color/white"
+            app:mcv_chipIcon="@mipmap/ic_launcher"
+            app:mcv_chipText="GocalSD" />
+
+        <com.robertlevonyan.views.chip.Chip
+            android:layout_weight="0"
+            app:mcv_hasIcon="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:mcv_backgroundColor="@color/colorPrimary"
+            app:mcv_textColor="@color/white"
+            app:mcv_chipIcon="@mipmap/ic_launcher"
+            app:mcv_chipText="UnSplash" />
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/sections_two"
+        android:padding="6dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.robertlevonyan.views.chip.Chip
+            android:layout_weight="0"
+            app:mcv_hasIcon="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:mcv_backgroundColor="@color/colorPrimary"
+            app:mcv_textColor="@color/white"
+            app:mcv_chipIcon="@mipmap/ic_launcher"
+            app:mcv_chipText="OEM" />
+
+        <com.robertlevonyan.views.chip.Chip
+            android:layout_weight="2"
+            app:mcv_hasIcon="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:mcv_backgroundColor="@color/colorPrimary"
+            app:mcv_textColor="@color/white"
+            app:mcv_chipIcon="@mipmap/ic_launcher"
+            app:mcv_chipText="Color Palette" />
+
+        <com.robertlevonyan.views.chip.Chip
+            android:layout_weight="0"
+            app:mcv_hasIcon="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:mcv_backgroundColor="@color/colorPrimary"
+            app:mcv_textColor="@color/white"
+            app:mcv_chipIcon="@mipmap/ic_launcher"
+            app:mcv_chipText="Destiny" />
+    </LinearLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Settings"/>
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="pref_blur"
+        android:title="Wallpaper Blur"
+        android:summary="Set concentration of Blur Utility"
+        android:enabled="true"
+        android:defaultValue="20"
+        app:msbp_minValue="5"
+        app:msbp_maxValue="100"
+        app:msbp_interval="5"
+        app:msbp_measurementUnit="%"
+        app:msbp_dialogEnabled="true"/>
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="customWidth"
+        android:title="Custom Screen Width"
+        android:summary="For custom offset values"
+        android:enabled="true"
+        android:defaultValue="480"
+        app:msbp_minValue="480"
+        app:msbp_maxValue="1440"
+        app:msbp_interval="20"
+        app:msbp_measurementUnit="%"
+        app:msbp_dialogEnabled="true"/>
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="customHeight"
+        android:title="Custom Screen Height"
+        android:summary="For custom offset values"
+        android:enabled="true"
+        android:defaultValue="480"
+        app:msbp_minValue="480"
+        app:msbp_maxValue="1440"
+        app:msbp_interval="20"
+        app:msbp_measurementUnit="%"
+        app:msbp_dialogEnabled="true"/>
+
+    <PreferenceCategory
+        android:title="Application"/>
+
+    <Preference
+        android:key="info"
+        android:title="Application Info" />
+
+    <Preference
+        android:key="reset"
+        android:title="Reset Data"
+        android:summary="Erases the application's cache data and resets it to first time usage."/>
+
+</PreferenceScreen>

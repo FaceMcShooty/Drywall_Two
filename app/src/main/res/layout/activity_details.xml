@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:elevation="4dp"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/transparent_white" >
+
+        <ImageButton
+            android:id="@+id/wallExit"
+            android:background="?selectableItemBackgroundBorderless"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center|start"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@color/dark_grey"
+            />
+
+        <TextView
+            android:id="@+id/wallTitle"
+            android:layout_gravity="center|start"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="46dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Title"
+            android:textColor="@color/dark_grey"/>
+
+        <ImageButton
+            android:id="@+id/help_button"
+            android:background="?selectableItemBackgroundBorderless"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center|end"
+            android:src="@drawable/ic_alert"
+            android:tint="@color/dark_grey"
+            />
+
+        <ImageButton
+            android:id="@+id/crop_button"
+            android:background="?selectableItemBackgroundBorderless"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_gravity="center|end"
+            android:src="@drawable/ic_crop"
+            android:tint="@color/dark_grey"
+            />
+
+        </FrameLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+        android:background="@color/transparent_white"
+        android:layout_width="match_parent"
+        android:weightSum="0"
+        android:layout_height="96dp">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/set_button"
+            android:text="Set Drywall"
+            android:textColor="@color/dark_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:background="?selectableItemBackgroundBorderless" />
+
+    </LinearLayout>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/bigwall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+    <changelogversion versionName="1.25.00" changeDate="March 4,2017">
+        <changelogtext><![CDATA[<b><font color=blue>NEW</font></b> Blur Wallpaper Effect]]></changelogtext>
+        <changelogtext><![CDATA[<b><font color=blue>NEW</font></b> Collections Category]]></changelogtext>
+
+        <changelogtext>Minor Interface Fixes </changelogtext>
+        <changelogtext>Changelog Viewer </changelogtext>
+        <changelogtext>Minor JSON Patch </changelogtext>
+        <changelogtext>Organized Categories </changelogtext>
+        <changelogtext>More Wallpapers </changelogtext>
+        <changelogtext>Updated Gradle </changelogtext>
+        <changelogtext>Animation While Loading Avatars With Ion </changelogtext>
+        <changelogtext>Background JSON Fixes </changelogtext>
+        <changelogtext>Rights Of Agreement Of Removing Any Media Material With Reason </changelogtext>
+        <changelogtext>Minor Wallpaper Chooser Patch For Android M </changelogtext>
+        <changelogtext>Minor Vector Fixes </changelogtext>
+        <changelogtext>Added Missing Content </changelogtext>
+
+    </changelogversion>
+
+</changelog>
