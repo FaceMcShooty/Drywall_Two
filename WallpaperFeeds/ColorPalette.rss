@@ -6,10 +6,50 @@
   <link>https://github.com/rgocal/Drywall/new/Drywall2/featured_walls.rss</link>
   <description>A RSS dedicated to companion news.</description>
   <item>
-    <title>Moonlight</title>
+    <title>AOSP1</title>
     <content:encoded>
 <![CDATA[
-<p><img class="alignnone size-large wp-image-826374" src="https://github.com/rgocal/Drywall/blob/master/archives/Campagna/170110_10-01.jpeg?raw=true">
+<p><img class="alignnone size-large wp-image-826374" src="https://raw.githubusercontent.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_1.jpg">
+]]>
+</content:encoded>
+  </item>
+  <item>
+    <title>AOSP2</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://raw.githubusercontent.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_2.jpg">
+]]>
+</content:encoded>
+  </item>
+  <item>
+    <title>AOSP3</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://raw.githubusercontent.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_3.jpg">
+]]>
+</content:encoded>
+  </item>
+  <item>
+    <title>AOSP4</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://raw.githubusercontent.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_4.jpg">
+]]>
+</content:encoded>
+  </item>
+  <item>
+    <title>AOSP5</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://raw.githubusercontent.com/rgocal/Catalyst_Wallpapers/master/drawable-nodpi/AOSP_5.jpg">
+]]>
+</content:encoded>
+  </item>
+  <item>
+    <title>Black Colors</title>
+    <content:encoded>
+<![CDATA[
+<p><img class="alignnone size-large wp-image-826374" src="https://images.unsplash.com/photo-1495639867387-5423d6811583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8cf6335dfe08a50fa199c96e84181b4e&auto=format&fit=crop&w=1350&q=80">
 ]]>
 </content:encoded>
   </item>
